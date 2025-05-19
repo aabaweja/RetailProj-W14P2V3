@@ -15,4 +15,4 @@ def expected_results(spark):
     return spark.read \
            .format("csv") \
            .schema(results_schema) \
-           .load("data/test_result/state_aggregate.csv")
+           .load("data/test_results/state_aggregate.csv")
